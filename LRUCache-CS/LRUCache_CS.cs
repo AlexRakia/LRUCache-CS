@@ -19,7 +19,7 @@ namespace LRUCache_CS
         }
     }
 
-    internal class LRUCache_CS_Example1
+    internal class LRUCache_CS
     {
         public int _capacity;
         public Node _linkedListHead = null; // Doubly-Linked List
@@ -28,7 +28,7 @@ namespace LRUCache_CS
 
 
         // Constructor
-        public LRUCache_CS_Example1(int capacity)
+        public LRUCache_CS(int capacity)
         {
             if (capacity < 1)
                 throw new ArgumentOutOfRangeException("Capacity should be positive (Greater than Zero)");

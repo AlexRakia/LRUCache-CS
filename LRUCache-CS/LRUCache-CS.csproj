@@ -43,8 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="LRUCache_CS_Example2.cs" />
-    <Compile Include="LRUCache_CS_Example1.cs" />
+    <Compile Include="LRUCache_CS.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

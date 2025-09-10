@@ -4,10 +4,10 @@ namespace LRUCache_CS
 {
     internal class Program
     {
-        private static LRUCache_CS_Example1 _cache;
+        private static LRUCache_CS _cache;
         static void Main(string[] args)
         {
-            _cache = new LRUCache_CS_Example1(3);
+            _cache = new LRUCache_CS(3);
 
             Console.WriteLine("=== Testing LRU Cache ===");
 
